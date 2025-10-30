@@ -1,0 +1,12 @@
+@startuml
+class Main {
++ {static} add(int a, int b) : int
++ {static} main(String[] args) : void
+}
+
+class MainTest {
++ shouldAnswerWithTrue() : void
++ shouldAnswerWithTrue2() : void
++ shouldAnswerWithTrue3() : void
+}
+@enduml
